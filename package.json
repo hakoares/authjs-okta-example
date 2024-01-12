@@ -32,7 +32,6 @@
 	"type": "module",
 	"dependencies": {
 		"@auth/core": "^0.20.0",
-		"@auth/sveltekit": "^0.5.2",
-		"@okta/okta-auth-js": "^7.5.0"
+		"@auth/sveltekit": "^0.5.2"
 	}
 }
