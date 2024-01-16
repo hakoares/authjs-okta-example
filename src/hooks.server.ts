@@ -6,7 +6,6 @@ export const handle = SvelteKitAuth(async () => {
 	const authOptions = {
 		secret: import.meta.env.VITE_PRIVATE_SECRET,
 		trustHost: true,
-		debug: true,
 		providers: [
 			Okta({
 				clientId: import.meta.env.VITE_PUBLIC_OKTA_CLIENT_ID,
